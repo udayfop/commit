@@ -23,4 +23,4 @@ jobs:
 
       # Run Commitlint
       - name: Run Commitlint
-        run: npx commitlint --from=HEAD~5 --to=HEAD
+        run: npx --no-install commitlint --from=HEAD~10 --to=HEAD
