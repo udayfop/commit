@@ -23,4 +23,4 @@ jobs:
 
       # Run Commitlint
       - name: Run Commitlint
-        run: npx commitlint --from=HEAD~5 --to=HEAD  || true
+        run: npx commitlint --from=HEAD~5 --to=HEAD
